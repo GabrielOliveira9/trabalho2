@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+  <a style="font-size:4vw;" href="#home" class="active">Iremos ajudá-lo(a)!</a>
+ 
+  <div id="myLinks">
+    <a href="#contact">Fale conosco</a>
+    <a href="#about">Sobre nós</a>
+  </div>
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+      
+  <div class="info">
+    <h2 style ="font-size:6vw;" class="title">Faça seu cadastro!</h2>
+    <h3 style ="font-size:4vw;"class="subtitle">Preencha com seus dados para que possamos te ajudar:</h3>
+  </div>
+  
+  <div style="font-size:4vw;" class="form">
+  
+    <form action="/cadastro">
+  <label for="fname">Nome:</label><br>
+    <input style="length:20vw;" type="text" id="fname" name="fname" class=><br>
+  <label for="surname">Sobrenome:</label><br>
+    <input type="text" id="surname" name="surname"><br>
+  <label for="age">Idade:</label><br>
+    <input type="number" id="age" name="age"> <br>
+  <label for="filhos">Possui filhos?</label> <br>
+    <input type="text" id="filhos" name="filhos"><br>   
+  <label for="start">Data de início:</label><br>
+    <input type="date" id="start" name="start"><br>
+  <label for="end">Até:</label><br>
+    <input type="date" id="end" name="end"> <br>   
+    </form><br>
+    <button onclick="save()">Enviar</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
